@@ -1,3 +1,4 @@
+from datetime import datetime
 import math
 import random
 from moviepy.editor import *
@@ -432,8 +433,11 @@ def handler(event=None, context=None):
 
 
 
+#Start time
 
+# print(datetime.now())
 # handler("", "")
+# print(datetime.now())
 
 
 # video = VideoFileClip("home/user/Desktop/dev/MoviePyPractise/grand-canyon-time-lapse-2022-02-08-22-43-06-utc.mp4").subclip(1,3)
