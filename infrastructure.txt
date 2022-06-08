@@ -1,0 +1,2 @@
+celery - > json to s3 -> lambda -> complete and 
+post request/webhook to update status when  complete
